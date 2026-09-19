@@ -88,7 +88,7 @@ export const LoginPage: React.FC = () => {
 
   const handleCustomLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    login(customEmail);
+    login(customEmail, 'demo1234');
     navigate('/farmer/dashboard');
   };
 
